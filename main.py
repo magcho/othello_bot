@@ -139,16 +139,16 @@ def load_own_AI():
 
 
 def main():
-    while(True):
-        auth_info = do_login()
-        make_room(auth_info)
-        time.sleep(1) # Why are you in such a hurry?
-        try:
-            import Play
-        except:
-            logging.info("[!] GAME OVER!")
+    #while(True): # It's f**kin buggy!!!
+    auth_info = do_login()
+    make_room(auth_info)
+    time.sleep(1) # Why are you in such a hurry?
+    try:
+        import Play
+    except:
+        logging.info("[!] GAME OVER!")
 
-        do_logout(auth_info)
+    do_logout(auth_info)
 
 
 if __name__ == "__main__":
