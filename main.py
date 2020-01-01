@@ -88,7 +88,7 @@ def make_room(auth_info):
     tokens = get_cookie_and_token(ROOM_CREATE_URL, auth_info["headers"], auth_info["cookies"])
     payload = {
         "_token":tokens["csrf-token"], 
-        "name":"GYTN_WEEK_BOT", 
+        "name":"OTHELLO_BOY", 
         "size":"8",
         "play_with_mine":"0", 
         "alpha":"0", 
