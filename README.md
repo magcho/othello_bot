@@ -5,10 +5,10 @@ othello_bot for univ.
 
 ```
 + OthelloArenaPython/
---- AuthCheck.py
---- OthelloAction.py
---- OthelloLogic.py
---- Play.py
---- TestPlay.py
---- main.py <- SET HERE
+|-- AuthCheck.py
+|-- OthelloAction.py
+|-- OthelloLogic.py
+|-- Play.py
+|-- TestPlay.py
+|-- main.py <- SET HERE
 ```
